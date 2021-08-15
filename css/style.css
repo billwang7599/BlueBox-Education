@@ -41,10 +41,7 @@ a {
     box-shadow: none;
   }
 
-.container {
-    height: 100vh;
-    overflow: auto;
-}
+
 
 .profile {
     padding: 2em;
@@ -78,13 +75,16 @@ a {
     position: absolute;
     height: 95vh;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(1,1,1,0.5);
 }
 
 .login-screen {
+    background-color: #424756;
     width: 50%;
     margin: auto;
     margin-top: 10em;
+    padding: 5em;
+    border-radius: 5%;
 }
 
 .profile-image-menu{
