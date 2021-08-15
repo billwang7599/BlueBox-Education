@@ -1,0 +1,112 @@
+body {
+    background-color: #92A1A6;
+    color: black;
+}
+
+a {
+    color: black;
+  }
+
+  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+#topNav{
+    background-color: #424756;
+}
+
+.collapse-container{
+    visibility: hidden;
+    position: absolute;
+    z-index: 10;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar-brand{
+    color: rgb(231, 231, 231);
+}
+.btn-primary{
+    background-color: #B8B8B8;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #8b8a8a;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+.container {
+    height: 100vh;
+    overflow: auto;
+}
+
+.profile {
+    padding: 2em;
+    background-color: #B8B8B8;
+}
+
+.dot {
+    height: 5em;
+    width: 5em;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.subjects-container {
+    margin-top: 1em;
+    padding: 2em;
+}
+
+.dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.home_settings{
+    margin-top: 70%;
+}
+
+.login-screen-container {
+    visibility: hidden;
+    position: absolute;
+    height: 95vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.login-screen {
+    width: 50%;
+    margin: auto;
+    margin-top: 10em;
+}
+
+.profile-image-menu{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+
+.profile-image{
+    position: absolute;
+    margin: 5em;
+    width: 25em;
+    height: 25em;
+    border-radius: 50%;
+}
+
+#studies{
+    margin-top: 3em;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
